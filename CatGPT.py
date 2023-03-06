@@ -9,7 +9,7 @@ def open_file(filepath):
 
 st.header("CatGPT 🐈")
 
-template = open_file("prompts/persona/catgpt_persona.txt")
+template = open_file("catgpt_persona.txt")
 
 prompt = PromptTemplate(
     input_variables=["history", "human_input"], 
